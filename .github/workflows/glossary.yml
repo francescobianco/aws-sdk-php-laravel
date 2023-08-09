@@ -20,4 +20,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Glossary analysis
-        run: curl -o glossary https://raw.githubusercontent.com/javanile/php-glossary/main/bin/glossary && php glossary
+        run: curl -so glossary https://raw.githubusercontent.com/javanile/php-glossary/main/bin/glossary && php glossary
