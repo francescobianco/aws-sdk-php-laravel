@@ -9,6 +9,7 @@ on:
 jobs:
   run:
     runs-on: ubuntu-22.04
+    name: Glossary analysis
     steps:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
