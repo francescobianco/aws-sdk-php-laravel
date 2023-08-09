@@ -3,6 +3,12 @@
 terms = Aws
       , Aws Region
       , Aws Service Provider
+      , East
       , Env
+      , L5MOD
 	  , Laravel
+	  , Latest
 	  , Region
+	  , UA_append
+	  , US
+	  , Version
